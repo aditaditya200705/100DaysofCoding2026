@@ -20,7 +20,7 @@ public class Day2{
        //catatan printf
 
        /*%n digunakan untuk membuat baris baru 
-       %s adalah tempat untuk teks dan "ADITYA" adalah nilai yang dimasukkan
+       %s adalah tempat untuk teks dan "INFORMATIKA" adalah nilai yang dimasukkan
        %d digunakan untuk bilangan bulat dan 2026 adalah nilainya*/
     
 
