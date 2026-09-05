@@ -24,3 +24,6 @@ public class Day4 {
         long jumlahpendudukdunia = (8300000000l);
         System.out.println("jumlah penduduk dunia saat ini " + jumlahpendudukdunia);
         //untuk data dengan angka yang sangat besar bisa sampai 9,22 kuantiliun dan diakhiri dengan huruf l
+    } 
+} 
+        
