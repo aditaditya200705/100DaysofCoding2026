@@ -1,32 +1,38 @@
 public class Day10 {
     public static void main(String[] args) {
-        byte angka = 127; //ini bisa karena masih masuk data byte sedangkan jika sudah 128 maka sudah tidak bisa
-        System.out.println(angka);
-        byte A = -128;//juga masih bisa karena merapakan angka minimal dari byte diatas dari itu tidak bisa
-        System.out.println(A);
-        
-        short B = 32000;//angka minimum dan maksimum dari short adalah -32.768 dan 32.767 lebih dari itu tidak bisa
-        System.out.println(B);
+   
+        //TIPE BILANGAN BULAT
+        System.out.println("BYTE");//Batas minimal dan maksimal tipe data BYTE
+        System.out.println("Min : " + Byte.MIN_VALUE);
+        System.out.println("Max : " + Byte.MAX_VALUE);
 
-        int c = 2000000000;// angka minimum dari int adalah +- 2.000.000.000 lebih dari itu tidak bisa misalnya 3.000.000.000
-        System.out.println(c);
+        System.out.println("SHORT");//Batas minimal dan maksimal tipe data Short
+        System.out.println("Min : " + Short.MIN_VALUE);
+        System.out.println("Max : " + Short.MAX_VALUE);
 
-        // tipe data long digunakan untuk angka yang sangat besar bisa mencapai 9 kuintiliun dan harus ditambah huruf L dibelakang nilainya
-        long pendudukDunia = 8000000000L;
+        System.out.println("INTEGER");//Batas minimal dan maksimal tipe data INT
+        System.out.println("Min : " + Integer.MIN_VALUE);
+        System.out.println("Max : " + Integer.MAX_VALUE);
 
-        System.out.println(pendudukDunia);
+        System.out.println("LONG");//Batas minimal dan maksimal tipe data LONG
+        System.out.println("Min : " + Long.MIN_VALUE);
+        System.out.println("Max : " + Long.MAX_VALUE);
 
-        float tinggi = 160.5f;//float mempunyai batas minimal dan maksimal yaitu 3,4 * 10 pangkat 8 
-        double tinggi2 = 165.7;//double memiliki batas minimal dan maksimal yaitu sekitar 1,7 * 10 pangkat 308
-        System.out.println(tinggi);
-        System.out.println(tinggi2);
+        //TIPE DATA PECAHAN
+        System.out.println("FLOAT");//Batas minimal dan maksimal tipe data Float
+        System.out.println("Min : " + Float.MIN_VALUE);
+        System.out.println("Max : " + Float.MAX_VALUE);
 
-        char kelas = 'A'; //hanya mempunyai satu karakter
-        String prodi = "INFORMATIKA"; //sedangkan String bisa lebih dari satu karakter
-        System.out.println(kelas);
-        System.out.println(prodi);
+        System.out.println("DOUBLE");//Tipe data minimal dan maksimal tipe data Double
+        System.out.println("Min ; " + Double.MIN_VALUE);
+        System.out.println("Max : " + Double.MAX_VALUE);
 
+        //tipe data karakter
+        System.out.println("CHAR");//Tipe data minimal dan maksimal tipe data Char
+        System.out.println("Min : " + Character.MIN_VALUE);
+        System.out.println("Max : " + Character.MAX_VALUE);
 
+        System.out.println("BOOLEAN");
+        System.out.println("Boolean hanya memiliki dua nilai TRUE/FALSE");
     }
-    
 }
