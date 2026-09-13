@@ -10,6 +10,7 @@ public class Day12 {
 
         System.out.print("Umur: ");
         int umur = input.nextInt();
+        input.nextLine();
 
         System.out.print("Asal: ");
         String asal = input.nextLine();
