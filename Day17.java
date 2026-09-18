@@ -20,16 +20,16 @@ public class Day17 {
         angka -= kurang;
         System.out.println(angka);
 
-        //operator bagi
-        System.out.print("Masukkan angka untuk dibagi: ");
-        int bagi = input.nextInt();
-        angka /= bagi;
+        //operator kali
+        System.out.print("Masukkan angka untuk dikali: ");
+        int kali = input.nextInt();
+        angka /= kali;
         System.out.println(angka);
 
-        //operator kali
-        System.out.print("masukkan angka untuk dikali: ");
-        int kali = input.nextInt();
-        angka *= kali;
+        //operator bagi
+        System.out.print("masukkan angka untuk dibagu: ");
+        int bagi = input.nextInt();
+        angka *= bagi;
         System.out.println(angka);
 
         //operator sisa bagi
