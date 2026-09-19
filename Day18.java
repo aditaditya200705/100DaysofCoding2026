@@ -5,11 +5,13 @@ public class Day18 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan umur: ");
-        int angka = input.nextInt();
+        byte umur = input.nextByte();
+        int umur1 = umur;
+        double umur2 = umur1;
 
-        double hasil = angka;
-
-        System.out.println("umur int: " + angka);
-        System.out.println("umur double: " + hasil);
+        System.out.println("umur : " + umur);
+        System.out.println("umur int: " + umur1 );
+        System.out.println("umur double :" + umur2);
+        input.close();
     }  
 }
