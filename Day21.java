@@ -5,20 +5,37 @@ public class Day21 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Masukkan angka pertama: ");
-        int angka1 = input.nextInt();
+        System.out.print("Masukkan angka byte: ");
+        String dataByte = input.nextLine();
+        byte hasilByte = Byte.parseByte(dataByte);
 
-        System.out.print("Masukkan angka kedua: ");
-        int angka2 = input.nextInt();
+        System.out.print("Masukkan angka short: ");
+        String dataShort = input.nextLine();
+        short hasilShort = Short.parseShort(dataShort);
 
-        System.out.println("=== HASIL PERBANDINGAN ===");
+        System.out.print("Masukkan angka int: ");
+        String dataInt = input.nextLine();
+        int hasilInt = Integer.parseInt(dataInt);
 
-        System.out.println("Sama dengan     : " + (angka1 == angka2));
-        System.out.println("Tidak sama      : " + (angka1 != angka2));
-        System.out.println("Lebih besar     : " + (angka1 > angka2));
-        System.out.println("Lebih kecil     : " + (angka1 < angka2));
-        System.out.println("Lebih besar/sama: " + (angka1 >= angka2));
-        System.out.println("Lebih kecil/sama: " + (angka1 <= angka2));
+        System.out.print("Masukkan angka long: ");
+        String dataLong = input.nextLine();
+        long hasilLong = Long.parseLong(dataLong);
+
+        System.out.print("Masukkan angka float: ");
+        String dataFloat = input.nextLine();
+        float hasilFloat = Float.parseFloat(dataFloat);
+
+        System.out.print("Masukkan angka double: ");
+        String dataDouble = input.nextLine();
+        double hasilDouble = Double.parseDouble(dataDouble);
+
+        System.out.println("=== HASIL ===");
+        System.out.println("Byte   : " + hasilByte);
+        System.out.println("Short  : " + hasilShort);
+        System.out.println("Int    : " + hasilInt);
+        System.out.println("Long   : " + hasilLong);
+        System.out.println("Float  : " + hasilFloat);
+        System.out.println("Double : " + hasilDouble);
 
         input.close();
     }
