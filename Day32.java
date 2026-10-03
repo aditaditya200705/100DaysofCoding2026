@@ -14,6 +14,6 @@ public class day32{
         //Hasil AND
         System.out.println(umur >= 17 && nilai >= 75);
         //Hasil OR
-        System.out.println(umur < 17 || nilai < 75);
+        System.out.println(umur > 17 || nilai > 75);
     }
 }
