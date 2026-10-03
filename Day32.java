@@ -1,6 +1,7 @@
 import java.util.Scanner;
-public class day32{
-    public static void main(String[] args){
+
+public class Day32 {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
@@ -11,9 +12,16 @@ public class day32{
         int nilai = input.nextInt();
 
         System.out.println("==== HASIL ====");
-        //Hasil AND
-        System.out.println(umur >= 17 && nilai >= 75);
-        //Hasil OR
-        System.out.println(umur > 17 || nilai > 75);
+
+        System.out.println("AND :" + (umur >= 17 && nilai >= 75));
+
+        System.out.println("OR :" + (umur < 17 || nilai < 75));
+
+        System.out.println("NOT : " + !(umur >= 17));
+
+        System.out.println("Kombinasi: "
+                + ((umur >= 17 && nilai >= 75) || !(nilai < 75)));
+
+        input.close();
     }
 }
