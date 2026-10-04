@@ -6,12 +6,12 @@ public class Day33 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan nilai: ");
-        int umur = input.nextInt();
+        int nilai = input.nextInt();
 
-        if (umur >= 17 ) {
-            System.out.println("Kamu Sudah Dewasa");
+        if (nilai >= 80 ) {
+            System.out.println("Selamat, Anda Lulus!");
         } else {
-            System.out.println("Kamu Belum Dewasa");
+            System.out.println("Maaf, Anda harus remedi");
 
         input.close();
         }
