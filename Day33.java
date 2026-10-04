@@ -12,8 +12,7 @@ public class Day33 {
             System.out.println("Selamat, Anda Lulus!");
         } else {
             System.out.println("Maaf, Anda harus remedi");
-
-        input.close();
         }
+        input.close();   
     }
 }
