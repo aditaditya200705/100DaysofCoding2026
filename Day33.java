@@ -6,14 +6,14 @@ public class Day33 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan nilai: ");
-        int nilai = input.nextInt();
+        int umur = input.nextInt();
 
-        if (nilai >= 75) {
-            System.out.println("Lulus");
+        if (umur >= 17 ) {
+            System.out.println("Kamu Sudah Dewasa");
         } else {
-            System.out.println("Tidak lulus");
-        }
+            System.out.println("Kamu Belum Dewasa");
 
         input.close();
+        }
     }
 }
