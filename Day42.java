@@ -1,21 +1,23 @@
 import java.util.Scanner;
 
-public class Day42{
-    public static void main(String[]args){
-        Scanner a = new Scanner(System.in);
-        System.out.print("Masukkan angka: ");
+public class Day42 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-        int b = a.nextInt();
+        System.out.print("Masukkan gaji pokok   : Rp ");
+        int a = input.nextInt();
 
-        if ( b%3 == 0 && b%5 == 0 ){
-            System.out.println("Kelipatan 3 Dan 5");
-        }else if (b%3==0){
-            System.out.println("Kelipatan 3");
-        }else if(b%5 == 0){
-            System.out.println("Kelipatan 5");
+        System.out.print("Masukkan potongan     : Rp ");
+        int b = input.nextInt();
+        int c = a - b;
+
+        System.out.println("Gaji Bersih: Rp" + c);
+
+        if (a >= 3000000){
+            System.out.println("Gaji Memenuhi target");
         }else{
-            System.out.println("Bukan kelipatan 3 dan 5");
+            System.out.println("Gaji tidak memenuhi target");
         }
-        a.close();
+        input.close();
     }
 }
