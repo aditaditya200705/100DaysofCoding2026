@@ -13,7 +13,7 @@ public class Day42 {
 
         System.out.println("Gaji Bersih: Rp" + c);
 
-        if (a >= 3000000){
+        if (c >= 3000000){
             System.out.println("Gaji Memenuhi target");
         }else{
             System.out.println("Gaji tidak memenuhi target");
