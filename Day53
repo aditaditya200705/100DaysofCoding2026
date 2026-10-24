@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class DoWhileValidasi {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int nilai;
+
+        do {
+            System.out.print("Masukkan nilai (0-100) : ");
+            nilai = input.nextInt();
+
+            if (nilai < 0 || nilai > 100) {
+                System.out.println("Nilai tidak valid, coba lagi!");
+            }
+        } while (nilai < 0 || nilai > 100);
+
+        System.out.println("Nilai yang diterima : " + nilai);
+
+        input.close();
+    }
+}
